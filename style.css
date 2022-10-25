@@ -9,19 +9,22 @@ body {
 
 .container-slide {
     display: flex;
+    justify-content: space-between;
+    background-color: aqua;
+    width: 50vw;
+    height: 50vh;
 }
 
 .container-itens {
-    background-color: aqua;
-    width: 200px;
-    height: 200px;
+    
 }
 
 .action-button {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgba(0, 255, 255, 0.377);
-    width: 50px;
-    height: 200px;
+    background-color: rgba(208, 255, 0, 0.082);
+    width: 4vw;
+    height: 50vh;
+    z-index: 1;
 }
