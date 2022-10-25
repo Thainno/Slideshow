@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;  
+    margin: 0;
+}
+
+.container-slide {
+    display: flex;
+}
+
+.container-itens {
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+}
+
+.action-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 255, 255, 0.377);
+    width: 50px;
+    height: 200px;
+}
