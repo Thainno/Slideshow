@@ -11,20 +11,31 @@ body {
     display: flex;
     justify-content: space-between;
     background-color: aqua;
-    width: 50vw;
+    border-radius: 10px;
+    width: 40vw;
     height: 50vh;
+    overflow: hidden;
 }
 
-.container-itens {
-    
+#container-itens {
+    display: flex;
+    overflow: hidden;
 }
 
 .action-button {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgba(208, 255, 0, 0.082);
+    font: bold 20px sans-serif; 
     width: 4vw;
     height: 50vh;
+    user-select: none;
     z-index: 1;
+}
+
+.action-button:hover {    
+    background-color: rgba(0, 0, 0, 0.212);
+    color: white;
+    font-size: 23px;
+    cursor: pointer;
 }
