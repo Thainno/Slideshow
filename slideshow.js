@@ -1,11 +1,11 @@
 'use strict';
 
 const images = [
-    {'id': '1', 'url': './images/oranges.jpg'},
-    {'id': '2', 'url': './images/blueberries.jpg'},
-    {'id': '3', 'url': './images/bananas.jpg'},
-    {'id': '4', 'url': './images/cherries.jpg'},
-    {'id': '5', 'url': './images/strawberries.jpg'},
+    {'id': '1', 'url': './images/arara.jpg'},
+    {'id': '2', 'url': './images/onca.jpg'},
+    {'id': '3', 'url': './images/tucano.jpg'},
+    {'id': '4', 'url': './images/boto.jpg'},
+    {'id': '5', 'url': './images/mico-leao.jpg'},
 ]
 
 const containerItens = document.querySelector('#container-itens');
@@ -37,3 +37,4 @@ const previous = () => {
 
 document.querySelector('#previous').addEventListener('click', previous);
 document.querySelector('#next').addEventListener('click', next);
+
