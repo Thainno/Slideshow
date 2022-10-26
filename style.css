@@ -13,7 +13,7 @@ body {
     background-color: aqua;
     border-radius: 10px;
     width: 50vw;
-    height: 50vh;
+    height: 60vh;
     overflow: hidden;
 }
 
@@ -21,18 +21,23 @@ body {
     position: absolute;
     display: flex;
     width: 50vw;
-    height: 50vh;
+    height: 60vh;
     overflow: hidden;
 }
 
 .item {
     width: 50vw;
-    height: 50vh;
+    height: 60vh;
+    transition: all 1s;
+}
+
+.item:first-child {
+    margin-left: -100%;
 }
 
 .item img {
     width: 50vw;
-    height: 50vh;
+    height: 60vh;
     border-radius: 10px;
 }
 
@@ -42,7 +47,7 @@ body {
     justify-content: center;
     font: bold 20px sans-serif; 
     width: 4vw;
-    height: 50vh;
+    height: 60vh;
     user-select: none;
     z-index: 1;
 }
