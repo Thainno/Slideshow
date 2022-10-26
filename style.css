@@ -9,17 +9,31 @@ body {
 
 .container-slide {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between;  
     background-color: aqua;
     border-radius: 10px;
-    width: 40vw;
+    width: 50vw;
     height: 50vh;
     overflow: hidden;
 }
 
 #container-itens {
+    position: absolute;
     display: flex;
+    width: 50vw;
+    height: 50vh;
     overflow: hidden;
+}
+
+.item {
+    width: 50vw;
+    height: 50vh;
+}
+
+.item img {
+    width: 50vw;
+    height: 50vh;
+    border-radius: 10px;
 }
 
 .action-button {
@@ -34,7 +48,7 @@ body {
 }
 
 .action-button:hover {    
-    background-color: rgba(0, 0, 0, 0.212);
+    background-color: rgba(0, 0, 0, 0.308);
     color: white;
     font-size: 23px;
     cursor: pointer;
