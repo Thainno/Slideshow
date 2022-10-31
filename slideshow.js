@@ -1,11 +1,9 @@
-'use strict';
-
 const images = [
-    {'id': '1', 'url': '../Images/arara.jpg'},
-    {'id': '2', 'url': '../Images/onca.jpg'},
-    {'id': '3', 'url': '../Images/tucano.jpg'},
-    {'id': '4', 'url': '../Images/boto.jpg'},
-    {'id': '5', 'url': '../Images/mico-leao.jpg'},
+    {'id': '1', 'url': './Images/arara.jpg'},
+    {'id': '2', 'url': './Images/onca.jpg'},
+    {'id': '3', 'url': './Images/tucano.jpg'},
+    {'id': '4', 'url': './Images/boto.jpg'},
+    {'id': '5', 'url': './Images/mico-leao.jpg'},
 ]
 
 const containerItens = document.querySelector('#container-itens');
